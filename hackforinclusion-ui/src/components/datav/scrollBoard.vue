@@ -10,21 +10,21 @@ export default {
   data () {
     return {
       config: {
-        header: ['Title0', 'Title1', 'Title2'],
+        header: ['Name', 'Gender', 'Age'],
         data: [
-          ['Info', 'Content', '5'],
-          ['Info', 'Content', '13'],
-          ['Info', 'Content', '6'],
-          ['Info', 'Content', '2'],
-          ['Info', 'Content', '1'],
-          ['Info', 'Content', '3'],
-          ['Info', 'Content', '4'],
-          ['Info', 'Content', '2'],
-          ['Info', 'Content', '5'],
-          ['Info', 'Content', '3']
+          ['Susan', 'F', '5'],
+          ['Alexa', 'M', '13'],
+          ['Zhou', 'F', '6'],
+          ['Wang', 'F', '2'],
+          ['Alice', 'M', '1'],
+          ['Bob', 'M', '3'],
+          ['Jack', 'M', '4'],
+          ['Jonathon', 'F', '2'],
+          ['Mike', 'F', '5'],
+          ['Andrew', 'M', '3']
         ],
         index: true,
-        columnWidth: [50, 150, 200,100],
+        columnWidth: [50, 150, 100,80],
         align: ['center'],
         rowNum: 7,
         headerBGC: '#1981f6',
