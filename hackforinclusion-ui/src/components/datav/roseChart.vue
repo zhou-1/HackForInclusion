@@ -1,6 +1,6 @@
 <template>
   <div id="rose-chart">
-    <div class="rose-chart-title">Title</div>
+    <div class="rose-chart-title">Recommending Actions</div>
     <dv-charts :option="option" />
   </div>
 </template>
@@ -24,15 +24,11 @@ export default {
             radius: '50%',
             roseSort: false,
             data: [
-              { name: 'Data1', value: randomExtend(40, 70) },
-              { name: 'Data2', value: randomExtend(20, 30) },
-              { name: 'Data3', value: randomExtend(10, 50) },
-              { name: 'Data4', value: randomExtend(5, 20) },
-              { name: 'Data5', value: randomExtend(40, 50) },
-              { name: 'Data6', value: randomExtend(20, 30) },
-              { name: 'Data7', value: randomExtend(5, 10) },
-              { name: 'Data8', value: randomExtend(20, 35) },
-              { name: 'Data9', value: randomExtend(5, 10) }
+              { name: 'Days', value: randomExtend(10, 30) },
+              { name: '1~2 Weeks', value: randomExtend(20, 30) },
+              { name: '1~2 Months', value: randomExtend(15, 40) },
+              { name: '>2 Months', value: randomExtend(20, 25) },
+              { name: 'Years', value: randomExtend(10, 15) },
             ],
             insideLabel: {
               show: false
@@ -50,7 +46,7 @@ export default {
             roseType: true
           }
         ],
-        color: ['#da2f00', '#fa3600', '#ff4411', '#ff724c', '#541200', '#801b00', '#a02200', '#5d1400', '#b72700']
+        color: ['#da2f00', '#fa3600', '#ff4411', '#ff724c', '#541200']
       }
     },
     randomExtend (minNum, maxNum) {
@@ -66,7 +62,7 @@ export default {
 
     createData()
 
-    setInterval(createData, 30000)
+    setInterval(createData, 6000)
   }
 }
 </script>

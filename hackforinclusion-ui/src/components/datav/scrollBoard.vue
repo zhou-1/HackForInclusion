@@ -10,21 +10,21 @@ export default {
   data () {
     return {
       config: {
-        header: ['Title0', 'Title1', 'Title2'],
+        header: ['School', '#Homeless', '#At Rist','#Social Workers'],
         data: [
-          ['Info', 'Content', '5'],
-          ['Info', 'Content', '13'],
-          ['Info', 'Content', '6'],
-          ['Info', 'Content', '2'],
-          ['Info', 'Content', '1'],
-          ['Info', 'Content', '3'],
-          ['Info', 'Content', '4'],
-          ['Info', 'Content', '2'],
-          ['Info', 'Content', '5'],
-          ['Info', 'Content', '3']
+          ['Boston Latin', '10', '5','2'],
+          ['Excel Middle', '2', '13','1'],
+          ['Brighton High', '30', '6','7'],
+          ['Fenway High', '1', '2','5'],
+          ['JFK Middle', '2', '1','6'],
+          ['MLK Middle', '4', '3','81'],
+          ['Lincoln High', '8', '4','4'],
+          ['Franklin Elem', '2', '2','8'],
+          ['Washington High', '7', '5','5'],
+          ['Roosevelt Elem', '2', '3','4']
         ],
-        index: true,
-        columnWidth: [50, 150, 200,100],
+        index: false,
+        columnWidth: [200, 100,100,100],
         align: ['center'],
         rowNum: 7,
         headerBGC: '#1981f6',
