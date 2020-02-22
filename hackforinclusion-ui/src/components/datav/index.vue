@@ -108,7 +108,7 @@ export default {
     width: 100%;
     justify-content: space-between;
     padding: 10px;
-    height: 100%;
+    height: 70vh;
   }
   .left-table-area {
     height: 55%;
@@ -140,11 +140,6 @@ export default {
     width: 28%;
     height: 100%;
   }
-  .block-top-content {
-    height: 55%;
-    display: flex;
-    flex-grow: 0;
-    box-sizing: border-box;
-  }
+  
 }
 </style>
