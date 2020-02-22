@@ -3,7 +3,7 @@
     <dv-decoration-8 class="header-left-decoration" />
     <dv-decoration-5 class="header-center-decoration" />
     <dv-decoration-8 class="header-right-decoration" :reverse="true" />
-    <div class="center-title">Massachusetts Homeless Shelter Dashboard</div>
+    <div class="center-title">Homeless Shelter Dashboard</div>
   </div>
 </template>
 

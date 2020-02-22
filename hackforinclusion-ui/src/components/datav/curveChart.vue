@@ -36,8 +36,8 @@ export default {
             ],
             direction: 'horizontal',
             gradientDirection: 'horizontal',
-            height: 300,
-            width: 400,
+            height: 400,
+            width: 500,
             animated:true
         };
     }

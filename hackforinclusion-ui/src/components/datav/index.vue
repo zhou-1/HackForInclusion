@@ -23,24 +23,21 @@
               <cards />
             </div>
           </div>
-          <div class="center-right-1">
+          <div class="center-right">
             <div class="element">
-              <ranking-board />
+              <div class="center-right-1">
+                <ranking-board />
+              </div>
+              <div class="center-right-2">
+                <curveChart/>
+              </div>
             </div>
-            <div class="element">
-              <water-level-chart />
-            </div>
-          </div>
-          <div class="center-right-2">
-            <div class="element">
-              <curveChart/>
-            </div>
-            <div class="element">
-              <rose-chart />
+            <div class="element" style="padding:10px">
+              <roseChart/>
             </div>
           </div>
         </div>
-        <digital-flop />
+        <!--digital-flop /-->
       </div>
     </dv-full-screen-container>
   </div>
@@ -124,21 +121,30 @@ export default {
     height: 50%;
     padding: 10px;
     max-height: 50%;
+    width:100%;
   }  
   .center-mid {
     flex-direction: column;
     width: 45%;
     height: 100%;
   }
-  .center-right-1 {
-    flex-direction: column;
-    width: 20%;
+  .center-right {
+    width: 45%;
     height: 100%;
-  }
-  .center-right-2 {
-    flex-direction: column;
-    width: 25%;
-    height: 100%;
+    .center-right-1{
+      width: 30%;
+      height: 100%;
+      float: left;
+      padding: 0 5px;
+    }
+    
+    .center-right-2 {
+      flex-direction: column;
+      width: 70%;
+      height: 100%;
+      float: left;
+      padding: 0 5px;
+    }
   }
   
 }

@@ -34,7 +34,7 @@ export default {
   data () {
     return {
       cards: [],
-      title:['Waitlist','Family Home','Solved Cases']
+      title:['Family Waitlist','Family Vacancies','Solved Cases']
     }
   },
   methods: {
