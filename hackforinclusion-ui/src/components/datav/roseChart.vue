@@ -1,6 +1,6 @@
 <template>
   <div id="rose-chart">
-    <div class="rose-chart-title">累计计量资金分布</div>
+    <div class="rose-chart-title">Title</div>
     <dv-charts :option="option" />
   </div>
 </template>
@@ -24,15 +24,15 @@ export default {
             radius: '50%',
             roseSort: false,
             data: [
-              { name: '路基', value: randomExtend(40, 70) },
-              { name: '交安设施', value: randomExtend(20, 30) },
-              { name: '日常养护', value: randomExtend(10, 50) },
-              { name: '桥通', value: randomExtend(5, 20) },
-              { name: '交通事故', value: randomExtend(40, 50) },
-              { name: '路面', value: randomExtend(20, 30) },
-              { name: '绿化', value: randomExtend(5, 10) },
-              { name: '计日工', value: randomExtend(20, 35) },
-              { name: '除雪', value: randomExtend(5, 10) }
+              { name: 'Data1', value: randomExtend(40, 70) },
+              { name: 'Data2', value: randomExtend(20, 30) },
+              { name: 'Data3', value: randomExtend(10, 50) },
+              { name: 'Data4', value: randomExtend(5, 20) },
+              { name: 'Data5', value: randomExtend(40, 50) },
+              { name: 'Data6', value: randomExtend(20, 30) },
+              { name: 'Data7', value: randomExtend(5, 10) },
+              { name: 'Data8', value: randomExtend(20, 35) },
+              { name: 'Data9', value: randomExtend(5, 10) }
             ],
             insideLabel: {
               show: false

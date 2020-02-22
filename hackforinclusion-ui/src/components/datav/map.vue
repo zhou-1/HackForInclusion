@@ -11,7 +11,7 @@ export default {
         config:{
             points: [
                 {
-                name: '郑州',
+                name: 'Boston',
                 coordinate: [0.48, 0.35],
                 halo: {
                     show: true,
@@ -26,11 +26,11 @@ export default {
                 }
                 },
                 {
-                name: '新乡',
+                name: 'Somewhere',
                 coordinate: [0.52, 0.23]
                 },
                 {
-                name: '周口',
+                name: 'Somewhere1',
                 coordinate: [0.62, 0.55],
                 halo: {
                     show: true,
@@ -40,12 +40,12 @@ export default {
             ],
             lines: [
                 {
-                source: '新乡',
-                target: '郑州'
+                source: 'Somewhere',
+                target: 'Boston'
                 },
                 {
-                source: '周口',
-                target: '郑州',
+                source: 'Somewhere1',
+                target: 'Boston',
                 color: '#fb7293',
                 width: 2
                 },
