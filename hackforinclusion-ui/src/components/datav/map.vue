@@ -11,43 +11,55 @@ export default {
         config:{
             points: [
                 {
-                name: 'Boston',
-                coordinate: [0.48, 0.35],
-                halo: {
-                    show: true,
-                },
-                icon: {
-                    src: '/img/flylineChart/mapCenterPoint.png',
-                    width: 30,
-                    height: 30
-                },
-                text: {
-                    show: false
-                }
+                    name: 'Boston',
+                    coordinate: [0.65, 0.35],
+                    halo: {
+                        show: true,
+                    },
+                    
+                    icon: {
+                        src: 'https://pngimage.net/wp-content/uploads/2018/06/point-png-2.png',
+                        width: 30,
+                        height: 30
+                    },
+                    text: {
+                        show: true,
+                        color:'white',
+                        offset:[35,-5],
+                        fontSize:15
+
+                    }
                 },
                 {
-                name: 'Somewhere',
-                coordinate: [0.52, 0.23]
+                    name: 'Somewhere',
+                    coordinate: [0.52, 0.23]
+                },
+                
+                {
+                    name: 'SomePlace',
+                    coordinate: [0.07, 0.41]
                 },
                 {
-                name: 'Somewhere1',
-                coordinate: [0.62, 0.55],
-                halo: {
-                    show: true,
-                    color: '#8378ea'
-                }
+                    name: 'Somewhere1',
+                    coordinate: [0.62, 0.55],
                 },
             ],
             lines: [
                 {
-                source: 'Somewhere',
-                target: 'Boston'
+                    source: 'Somewhere',
+                    target: 'Boston'
                 },
                 {
-                source: 'Somewhere1',
-                target: 'Boston',
-                color: '#fb7293',
-                width: 2
+                    source: 'Somewhere1',
+                    target: 'Boston',
+                    color: '#fb7293',
+                    width: 2
+                },
+                {
+                    source: 'SomePlace',
+                    target: 'Boston',
+                    color: '#fb7293',
+                    width: 2
                 },
             ],
             text: {

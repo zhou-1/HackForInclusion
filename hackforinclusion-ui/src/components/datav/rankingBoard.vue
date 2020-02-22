@@ -1,6 +1,6 @@
 <template>
   <div id="ranking-board">
-    <div class="ranking-board-title">Data Title</div>
+    <div class="ranking-board-title">#Children beds</div>
     <dv-scroll-ranking-board :config="config" />
   </div>
 </template>
@@ -13,27 +13,27 @@ export default {
       config: {
         data: [
           {
-            name: 'Data',
+            name: 'TH',
             value: 55
           },
           {
-            name: 'Data',
+            name: 'ES',
             value: 120
           },
           {
-            name: 'Data',
+            name: 'PSH',
             value: 78
           },
           {
-            name: 'Data',
+            name: 'RRH',
             value: 66
           },
           {
-            name: 'Data',
+            name: 'OPH',
             value: 80
           },
           {
-            name: 'Data',
+            name: 'SH',
             value: 45
           }
         ],

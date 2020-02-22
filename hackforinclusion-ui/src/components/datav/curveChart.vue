@@ -1,6 +1,6 @@
 <template>
     <div class="curveChart">
-        <div class="title">Data Title</div>
+        <div class="title">Bed Utilization by Cont of Care</div>
         <vue-funnel-graph :width="width" :height="height" :labels="labels"
                 :values="values" :colors="colors" :sub-labels="subLabels" :direction="direction"
                 :gradient-direction="gradientDirection"
@@ -17,17 +17,17 @@ export default {
     },
     data() {
         return {
-            labels: ['Impressions', 'Add To Cart', 'Buy'],
-            subLabels: ['Direct', 'Social Media', 'Ads'],
+            labels: ['Past', 'Current', 'Predicted'],
+            subLabels: ['CoC1', 'CoC2', 'CoC3'],
             values: [
             // with the given Labels and SubLabels here's what the values represent:
             // 
             // Direct, Social, Ads  
             //    |      |     |  
             //    v      v     v
-                [3000, 2500, 6500], // Segments of "Impressions" from top to bottom
-                [3000, 1700, 1000], // Segments of "Add To Cart"
-                [600,  200,  130]   // Segments of "Buy"
+                [200, 250, 150], // Segments of "Impressions" from top to bottom
+                [300, 170, 100], // Segments of "Add To Cart"
+                [1000,  900,  2000]   // Segments of "Buy"
             ],
             colors: [
                 ['#FFB178', '#FF3C8E'], // color set for "Impressions" segment
@@ -36,8 +36,9 @@ export default {
             ],
             direction: 'horizontal',
             gradientDirection: 'horizontal',
-            height: 300,
-            width: 800
+            height: 400,
+            width: 500,
+            animated:true
         };
     }
 }
@@ -54,7 +55,7 @@ export default {
   overflow: hidden;
 }
 .title {
-    height: 10%;
+    height: 15%;
     font-weight: bold;
     text-indent: 20px;
     font-size: 20px;
