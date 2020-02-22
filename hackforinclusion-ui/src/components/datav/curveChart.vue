@@ -1,6 +1,6 @@
 <template>
     <div class="curveChart">
-        <div class="title">累计计量资金分布</div>
+        <div class="title">Data Title</div>
         <vue-funnel-graph :width="width" :height="height" :labels="labels"
                 :values="values" :colors="colors" :sub-labels="subLabels" :direction="direction"
                 :gradient-direction="gradientDirection"

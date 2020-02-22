@@ -10,21 +10,21 @@ export default {
   data () {
     return {
       config: {
-        header: ['时间', '病害信息', '数量', '标段'],
+        header: ['Title0', 'Title1', 'Title2'],
         data: [
-          ['2019-07-01 19:25:00', '路面危害-松散', '5', 'xxxxxxx'],
-          ['2019-07-02 17:25:00', '路面危害-路面油污清理', '13', 'xxxxxxx'],
-          ['2019-07-03 16:25:00', '交安设施-交通标志牌结构', '6', 'xxxxxxx'],
-          ['2019-07-04 15:25:00', '路基危害-防尘网', '2', 'xxxxxxx'],
-          ['2019-07-05 14:25:00', '交安设施-交通标志牌结构', '1', 'xxxxxxx'],
-          ['2019-07-06 13:25:00', '路面危害-松散', '3', 'xxxxxxx'],
-          ['2019-07-07 12:25:00', '路基危害-防尘网', '4', 'xxxxxxx'],
-          ['2019-07-08 11:25:00', '路面危害-路面油污清理', '2', 'xxxxxxx'],
-          ['2019-07-09 10:25:00', '交安设施-交通标志牌结构', '5', 'xxxxxxx'],
-          ['2019-07-10 09:25:00', '路基危害-防尘网', '3', 'xxxxxxx']
+          ['Info', 'Content', '5'],
+          ['Info', 'Content', '13'],
+          ['Info', 'Content', '6'],
+          ['Info', 'Content', '2'],
+          ['Info', 'Content', '1'],
+          ['Info', 'Content', '3'],
+          ['Info', 'Content', '4'],
+          ['Info', 'Content', '2'],
+          ['Info', 'Content', '5'],
+          ['Info', 'Content', '3']
         ],
         index: true,
-        columnWidth: [50, 170, 300],
+        columnWidth: [50, 150, 200,100],
         align: ['center'],
         rowNum: 7,
         headerBGC: '#1981f6',

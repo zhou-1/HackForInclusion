@@ -1,6 +1,6 @@
 <template>
   <div class="pointChart">
-    <div class="title">累计计量资金分布</div>
+    <div class="title">Data Title</div>
     <!-- full demo here: https://emiliorizzo.github.io/vue-d3-network/ -->
     <d3-network :net-nodes="nodes" :net-links="[]" :options="options" />
     <!--div class="controls">

@@ -1,7 +1,7 @@
 <template>
 <div style="height:100%">
   <div id="water-level-chart">
-    <div class="water-level-chart-title">计划资金累计完成情况</div>
+    <div class="water-level-chart-title">Data</div>
 
     <div class="chart-container">
       <dv-water-level-pond :config="config1" />
@@ -9,7 +9,7 @@
   </div>
   
   <div id="water-level-chart-2">
-    <div class="water-level-chart-title">计划资金累计完成情况</div>
+    <div class="water-level-chart-title">Data</div>
 
     <div class="chart-container">
       <dv-water-level-pond :config="config2" />

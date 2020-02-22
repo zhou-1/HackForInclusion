@@ -12,15 +12,15 @@
       <dv-charts class="ring-charts" :option="card.ring" />
       <div class="card-footer">
         <div class="card-footer-item">
-          <div class="footer-title">累计金额</div>
+          <div class="footer-title">category1</div>
           <div class="footer-detail">
-            <dv-digital-flop :config="card.total" style="width:70%;height:35px;" />元
+            <dv-digital-flop :config="card.total" style="width:70%;height:35px;" />$
           </div>
         </div>
         <div class="card-footer-item">
-          <div class="footer-title">巡查病害</div>
+          <div class="footer-title">category2</div>
           <div class="footer-detail">
-            <dv-digital-flop :config="card.num" style="width:70%;height:35px;" />处
+            <dv-digital-flop :config="card.num" style="width:70%;height:35px;" />+
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default {
       const { randomExtend } = this
 
       this.cards = new Array(3).fill(0).map((foo, i) => ({
-        title: '测试路段' + (i + i),
+        title: 'Test' + (i + i),
         total: {
           number: [randomExtend(50, 250)],
           content: '{nt}',
@@ -69,7 +69,7 @@ export default {
               arcLineWidth: 14,
               radius: '80%',
               data: [
-                { name: '资金占比', value: randomExtend(20, 80) }
+                { name: 'Percentage', value: randomExtend(20, 80) }
               ],
               axisLabel: {
                 show: false
@@ -87,7 +87,7 @@ export default {
               },
               details: {
                 show: true,
-                formatter: '资金占比{value}%',
+                formatter: 'Percentage{value}%',
                 style: {
                   fill: '#1ed3e5',
                   fontSize: 20

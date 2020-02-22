@@ -33,7 +33,7 @@ export default {
 
       this.digitalFlopData = [
         {
-          title: '管养里程',
+          title: 'Human',
           number: {
             number: [randomExtend(20000, 30000)],
             content: '{nt}',
@@ -43,10 +43,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '公里'
+          unit: 'Unit0'
         },
         {
-          title: '桥梁',
+          title: 'Women',
           number: {
             number: [randomExtend(20, 30)],
             content: '{nt}',
@@ -56,10 +56,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '座'
+          unit: 'Unit0'
         },
         {
-          title: '涵洞隧道',
+          title: 'Child',
           number: {
             number: [randomExtend(20, 30)],
             content: '{nt}',
@@ -69,10 +69,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit1'
         },
         {
-          title: '匝道',
+          title: 'Men',
           number: {
             number: [randomExtend(10, 20)],
             content: '{nt}',
@@ -82,10 +82,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit1'
         },
         {
-          title: '隧道',
+          title: 'Cat',
           number: {
             number: [randomExtend(5, 10)],
             content: '{nt}',
@@ -95,10 +95,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit1'
         },
         {
-          title: '服务区',
+          title: 'Dot',
           number: {
             number: [randomExtend(5, 10)],
             content: '{nt}',
@@ -108,10 +108,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit2'
         },
         {
-          title: '收费站',
+          title: 'Parrot',
           number: {
             number: [randomExtend(5, 10)],
             content: '{nt}',
@@ -121,10 +121,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit2'
         },
         {
-          title: '超限站',
+          title: 'Table',
           number: {
             number: [randomExtend(5, 10)],
             content: '{nt}',
@@ -134,10 +134,10 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit2'
         },
         {
-          title: '停车区',
+          title: 'Bed',
           number: {
             number: [randomExtend(5, 10)],
             content: '{nt}',
@@ -147,7 +147,7 @@ export default {
               fontWeight: 'bold'
             }
           },
-          unit: '个'
+          unit: 'Unit2'
         }
       ]
     },
