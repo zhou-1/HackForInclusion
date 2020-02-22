@@ -1,4 +1,8 @@
 # HackForInclusion    
 
-Focus on UI,        
-Algorithm model for ML.       
+UI interface 
+
+
+ML algorithm for predicting & recommendation    
+
+
