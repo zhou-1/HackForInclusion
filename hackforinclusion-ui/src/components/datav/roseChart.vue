@@ -1,6 +1,6 @@
 <template>
   <div id="rose-chart">
-    <div class="rose-chart-title">Title</div>
+    <div class="rose-chart-title">Recommending Actions</div>
     <dv-charts :option="option" />
   </div>
 </template>
@@ -66,7 +66,7 @@ export default {
 
     createData()
 
-    setInterval(createData, 30000)
+    setInterval(createData, 6000)
   }
 }
 </script>

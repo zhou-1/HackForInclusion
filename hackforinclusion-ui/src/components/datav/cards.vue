@@ -7,10 +7,10 @@
     >
       <div class="card-header">
         <div class="card-header-left">{{ card.title }}</div>
-        <div class="card-header-right">{{ '0' + (i + 1) }}</div>
+        <!--div class="card-header-right">{{ '0' + (i + 1) }}</div-->
       </div>
       <dv-charts class="ring-charts" :option="card.ring" />
-      <div class="card-footer">
+      <!--div class="card-footer">
         <div class="card-footer-item">
           <div class="footer-title">category1</div>
           <div class="footer-detail">
@@ -23,7 +23,7 @@
             <dv-digital-flop :config="card.num" style="width:70%;height:35px;" />+
           </div>
         </div>
-      </div>
+      </div-->
     </div>
   </div>
 </template>
@@ -33,7 +33,8 @@ export default {
   name: 'Cards',
   data () {
     return {
-      cards: []
+      cards: [],
+      title:['Waitlist','Family Home','Solved Cases']
     }
   },
   methods: {
@@ -41,7 +42,7 @@ export default {
       const { randomExtend } = this
 
       this.cards = new Array(3).fill(0).map((foo, i) => ({
-        title: 'Test' + (i + i),
+        title: this.title[i],
         total: {
           number: [randomExtend(50, 250)],
           content: '{nt}',
@@ -87,7 +88,7 @@ export default {
               },
               details: {
                 show: true,
-                formatter: 'Percentage{value}%',
+                formatter: '{value}%',
                 style: {
                   fill: '#1ed3e5',
                   fontSize: 20
@@ -112,7 +113,7 @@ export default {
 
     createData()
 
-    setInterval(this.createData, 30000)
+    setInterval(this.createData, 6000)
   }
 }
 </script>
@@ -138,11 +139,14 @@ export default {
     height: 20%;
     align-items: center;
     justify-content: space-between;
+    margin: 2vh 0vh;
 
     .card-header-left {
       font-size: 18px;
       font-weight: bold;
       padding-left: 20px;
+      text-align: center;
+      width: 90%;
     }
 
     .card-header-right {
@@ -153,7 +157,7 @@ export default {
   }
 
   .ring-charts {
-    height: 55%;
+    height: 60%;
   }
 
   .card-footer {

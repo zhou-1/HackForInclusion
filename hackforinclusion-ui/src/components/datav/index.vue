@@ -111,12 +111,12 @@ export default {
     height: 70vh;
   }
   .left-table-area {
-    height: 55%;
+    height: 50%;
   }
   
   .center-left {
     flex-direction: column;
-    width: 20%;
+    width: 25%;
     height: 100%;
   }
 
@@ -127,17 +127,17 @@ export default {
   }  
   .center-mid {
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     height: 100%;
   }
   .center-right-1 {
     flex-direction: column;
-    width: 13%;
+    width: 20%;
     height: 100%;
   }
   .center-right-2 {
     flex-direction: column;
-    width: 28%;
+    width: 25%;
     height: 100%;
   }
   
