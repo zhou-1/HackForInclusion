@@ -1,5 +1,5 @@
 # hackforinclusion-ui
-Based on eharts.js   
+Based on echarts.js   
 
 ## Project setup
 ```
