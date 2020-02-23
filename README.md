@@ -1,6 +1,11 @@
 # HackForInclusion    
 Vue Front End
 
+UI interface 
+
+
+ML algorithm for predicting & recommendation  
+
 ## Ver 0
 ![demo](/img/ver0.png)
 
@@ -18,3 +23,7 @@ https://youtu.be/wDiPaNlOzhw
 Try it (please use full screen mode)
 
 https://pupiltong.github.io/HackForInclusion/
+
+  
+
+
