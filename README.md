@@ -1,10 +1,8 @@
 # HackForInclusion    
-Vue Front End
+For MIT hackathon.   
 
-UI interface 
-
-
-ML algorithm for predicting & recommendation  
+UI interface (Vue Front End)     
+ML algorithm for predicting & recommendation     
 
 ## Ver 0
 ![demo](/img/ver0.png)
